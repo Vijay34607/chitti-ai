@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-const API = 'http://localhost:3001/api'
+const API = 'https://chitti-ai-hm0n.onrender.com'
 
 async function apiGet(path) {
   const res = await fetch(API + path)
