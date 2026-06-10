@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 
-const API = 'https://chitti-ai-hm0n.onrender.com'
+const API = 'https://chitti-ai-hm0n.onrender.com/api'
 
 async function apiGet(path) {
   const res = await fetch(API + path)
