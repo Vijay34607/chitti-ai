@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid');
 const db = require('./database');
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: 'https://chitti-ai-kappa.vercel.app' }));
 app.use(express.json());
 
 const PORT = process.env.PORT || 3001;
