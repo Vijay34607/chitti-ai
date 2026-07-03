@@ -46,7 +46,7 @@ app.post('/api/chat', async (req, res) => {
         'X-Title': 'Chitti AI',
       },
       body: JSON.stringify({
-        model: 'openrouter/owl-alpha',
+        model: 'openrouter/free',
         messages: [
           { role: 'system', content: 'Your name is Chitti. You are a helpful AI assistant. Be friendly and clear.' },
           ...history,
